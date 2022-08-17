@@ -1,0 +1,45 @@
+.payment-form form .child .card {
+    width: 18rem;
+}
+
+.payment-form form .child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+.payment-form form .child .card .card-body label {
+    margin-top: 15px;
+}
+
+#transferdate {
+    width: fit-content;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.payment-form form .child label {
+    margin-top: 15px;
+}
+
+.payment-form form #submit {
+    margin-top: 10px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
